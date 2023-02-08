@@ -15,6 +15,7 @@ function printPosition(position: {
   lat: number;
   long?: number | string;
 }): void {
+  // void cuando la funcion no retorna nada
   console.log(
     `latitude & longitude are: LAT ${position.lat} LONG: ${position.long}`
   );

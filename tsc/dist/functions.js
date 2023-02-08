@@ -9,6 +9,7 @@ function getNumber() {
 }
 console.log(getNumber());
 function printPosition(position) {
+    // void cuando la funcion no retorna nada
     console.log(`latitude & longitude are: LAT ${position.lat} LONG: ${position.long}`);
 }
 printPosition({ lat: 3, long: 55 });

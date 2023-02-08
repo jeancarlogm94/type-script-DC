@@ -1,20 +1,20 @@
 // Interfaces
 
-interface Person {
+interface Persona {
   id: number;
   name: string;
 }
 
-interface Employee extends Person {
+interface Empleado extends Persona {
   dept: string;
 }
 
-interface Customer extends Person {
+interface Customer extends Persona {
   country: string;
 }
 
 // const customer: Customer = {}
-// const emp: Employee = {}
+// const emp: Empleado = {}
 
 interface Animal {
   name: string;
